@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #5c738a;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #a3bfdb;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, .9);
+    font-size: x-large;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+.text-center {
+    font-family: fantasy;
+    text-align: center !important;
+}
+header .navbar-brand img {
+    margin-right: 10px;
+}
+
+.hero {
+    background-color: #a3bfdb;
+    padding: 50px 0;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.featured-recipes .card, .latest-tutorials .card {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+footer h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: #6c757d;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #343a40;
+}
+
+footer form .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+footer form button {
+    vertical-align: middle;
+}
